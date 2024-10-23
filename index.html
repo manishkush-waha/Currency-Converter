@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Currecy Converter</title>
+  </head>
+  <body>
+    <div class="container">
+      <h2>Corrency Converter</h2>
+      <div class="main-div">
+        <div class="input">
+          <!-- <h4>Enter Amount</h4> -->
+          <input type="text" placeholder="Enter Amount" />
+        </div>
+        <div class="from-to">
+          <!-- this is for from the value of the Currecy -->
+          <div class="from">
+            <h5>From</h5>
+            <div class="for-change1">
+              <img
+                src="https://flagsapi.com/US/shiny/64.png"
+                class="first-img"
+              />
+              <select id="currencies1"></select>
+            </div>
+          </div>
+          <!-- for change the Currecy of both with each other -->
+          <img
+            src="image/currency_exchange_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+            class="exchange"
+            onclick="flip_currency()"
+          />
+          <!-- this is for the to value of the Currecy -->
+          <div class="to">
+            <h5>To</h5>
+            <div class="for-change2">
+              <img
+                src="https://flagsapi.com/IN/shiny/64.png"
+                class="second-img"
+              />
+              <select id="currencies2">
+                <option value="IN">INR</option>
+              </select>
+            </div>
+          </div>
+        </div>
+        <div class="Exchange-rate">
+          <p class="paragrapg1">1 USD</p>
+          <img
+            src="image/arrow_right_alt_24dp_5F6368_FILL0_wght400_GRAD0_opsz24.png"
+            alt=""
+          />
+          <p class="paragrapg2">83.37 INR</p>
+        </div>
+        <!-- <button onclick="Calculate()">Calculate</button> -->
+      </div>
+    </div>
+    <script src="list.js"></script>
+    <script src="exchangeRate.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

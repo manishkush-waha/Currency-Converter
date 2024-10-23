@@ -1,0 +1,119 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.main-div {
+    width: 15rem;
+    height: 18rem;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    border-radius: 20px ;
+    background-color: rgb(255, 251, 0);
+    box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+
+.input h4 {
+    margin-left: 10px;
+}
+
+.main-div input {
+    width: 100%;
+    height: 40px;
+    font-size: large;
+    font-weight: 400;
+    padding-left: 10px;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.4);
+}
+.main-div .exchange {
+    width: 30px;
+    cursor: pointer;
+}
+
+.main-div img {
+    width: 60px;
+}
+
+.from-to {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.from, .to {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    padding: 10px;
+    border-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.8);
+
+}
+
+.for-change1, .for-change2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.from-to select {
+    width: 70%;
+    border: none;
+}
+
+.Exchange-rate {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Exchange-rate img {
+    width: 40px;
+    rotate: 90deg;
+}
+.main-div button {
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 20px;
+    color: rgb(12, 12, 12);
+    padding: 10px;
+    font-size: 25px;
+    font-weight: 600;
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0px 1px 20px 5px rgba(0, 0, 0, 0.8) inset;
+}
+
+.main-div button:active {
+    background-color: rgba(255, 255, 255, 0.829);
+    box-shadow: 0px 0px 10px rgb(144, 205, 255) inset;
+}
+
+p {
+    font-size: 25px;
+    font-weight: 700;
+}
